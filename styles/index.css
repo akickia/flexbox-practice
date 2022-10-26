@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+article {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+.top__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 96px;
+}
+
+.top__header nav {
+  max-width: 353px;
+  width: 100%;
+}
+.top__header a {
+  margin: 3%;
+  text-decoration: none;
+  color: #333333;
+  font-size: 1rem;
+}
+
+.starter {
+  background-color: #333333;
+  color: #FFFFFF;
+  text-align: center;
+  height: 512px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 92px;
+}
+
+.starter h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.starter button {
+  background-color: #FFFFFF;
+  color: #000000;
+  border-radius: 100px;
+  padding: 2%;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 5rem 0 ;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.01em;
+  height: 544px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  margin-top: 32px;
+}
+
+.card-large {
+  max-width: 656px;
+}
+.card-small {
+  max-width: 311px;
+}
+
+.card h4 {
+  font-size: 1.5625rem;
+  
+}
+
+.card p {
+  font-size: 0.875rem;
+}
