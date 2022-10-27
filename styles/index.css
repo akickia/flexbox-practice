@@ -23,12 +23,14 @@ article {
 .top__header nav {
   max-width: 353px;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .top__header a {
-  margin: 3%;
   text-decoration: none;
   color: #333333;
   font-size: 1rem;
+  line-height: 18px;
 }
 
 .starter {
@@ -46,16 +48,21 @@ article {
 .starter h1 {
   font-size: 4rem;
   font-weight: 700;
+  line-height: 74px;
+/* identical to box height */
 }
 
 .starter button {
   background-color: #FFFFFF;
   color: #000000;
   border-radius: 100px;
-  padding: 2%;
+  padding: 1.34% 2.3%;
   font-size: 1.25rem;
   font-weight: 500;
   margin: 5rem 0 ;
+  line-height: 23px;
+  /* identical to box height */
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .cards {
@@ -80,9 +87,109 @@ article {
 
 .card h4 {
   font-size: 1.5625rem;
-  
+  line-height: 100.5%;
+  margin: 16px 0
+  /* or 25px */
+
 }
 
 .card p {
   font-size: 0.875rem;
+  line-height: 160%;
+  /* or 22px */
+}
+
+article:nth-child(4) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 544px
+}
+.circle {
+  width: 140px;
+  height: 140px;
+  background-color: #C4C4C4;
+  border-radius: 50%;
+}
+
+blockquote {
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 37px;
+  margin: 32px;
+}
+
+.quote p {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 23px;
+  font-style: italic;
+}
+
+footer {
+  background-color: #4F4F4F;
+  color: #FFFFFF;
+  min-height: 447px;
+}
+
+footer article {
+  display: flex;
+  margin-top: 71px;
+  justify-content: space-between;
+}
+
+footer section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 71px;
+  width: 100%;
+  min-height: 218px;
+}
+
+
+footer .nav {
+  max-width: 225px;
+  justify-content: space-between;
+}
+
+footer .nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 18.38px
+}
+
+footer .about {
+  max-width: 312px;
+}
+
+footer h3 {
+  line-height: 100.5%;
+  font-size: 1.625rem;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+}
+
+footer p {
+  margin-top: 16px;
+  font-size: 1rem;
+  line-height: 160%;
+}
+
+footer .social {
+  max-width: 399px;
+  padding-left: 84px;
+}
+
+.social div {
+  margin-top: 18px;
+  max-width: 182px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer i {
+  font-size: 2.3rem
 }
