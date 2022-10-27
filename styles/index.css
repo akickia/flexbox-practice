@@ -17,11 +17,11 @@ article {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 96px;
+  padding: 2.25rem 0
 }
 
 .top__header nav {
-  max-width: 353px;
+  max-width: 22.063rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -30,26 +30,24 @@ article {
   text-decoration: none;
   color: #333333;
   font-size: 1rem;
-  line-height: 18px;
+  line-height: 1.125rem;
 }
 
 .starter {
   background-color: #333333;
   color: #FFFFFF;
   text-align: center;
-  height: 512px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
-  margin-bottom: 92px;
+  margin-bottom: 6.063rem;
 }
 
 .starter h1 {
   font-size: 4rem;
   font-weight: 700;
-  line-height: 74px;
-/* identical to box height */
+  line-height: 4.625rem;
+  margin-top: 12.5%;
 }
 
 .starter button {
@@ -60,8 +58,7 @@ article {
   font-size: 1.25rem;
   font-weight: 500;
   margin: 5rem 0 ;
-  line-height: 23px;
-  /* identical to box height */
+  line-height: 1.438rem;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -73,30 +70,28 @@ article {
 .card {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.01em;
-  height: 544px;
+  /*height: 544px;*/
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-  margin-top: 32px;
+  margin-bottom: 2rem;
 }
 
 .card-large {
-  max-width: 656px;
+  max-width: 41rem;
 }
 .card-small {
-  max-width: 311px;
+  max-width: 19.438rem
 }
 
 .card h4 {
   font-size: 1.5625rem;
   line-height: 100.5%;
-  margin: 16px 0
-  /* or 25px */
-
+  margin: 1rem 0
 }
 
 .card p {
   font-size: 0.875rem;
   line-height: 160%;
-  /* or 22px */
+  padding-bottom: 20%
 }
 
 article:nth-child(4) {
@@ -104,11 +99,11 @@ article:nth-child(4) {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 544px
+  padding: 5.25% 0 
 }
 .circle {
-  width: 140px;
-  height: 140px;
+  width: 8.75rem;
+  height: 8.75rem;
   background-color: #C4C4C4;
   border-radius: 50%;
 }
@@ -117,40 +112,39 @@ blockquote {
   font-size: 2rem;
   font-weight: 400;
   font-style: italic;
-  line-height: 37px;
-  margin: 32px;
+  line-height: 2.313rem;
+  margin: 2rem;
 }
 
 .quote p {
   font-size: 1.25rem;
   font-weight: 700;
-  line-height: 23px;
+  line-height: 1.438rem;
   font-style: italic;
 }
 
 footer {
   background-color: #4F4F4F;
   color: #FFFFFF;
-  min-height: 447px;
 }
 
 footer article {
   display: flex;
-  margin-top: 71px;
   justify-content: space-between;
 }
 
 footer section {
   display: flex;
   flex-direction: column;
-  margin-top: 71px;
+  margin-top: 4.438rem;
+  margin-bottom: 15%;
   width: 100%;
-  min-height: 218px;
+  min-height: 13.625rem;
 }
 
 
 footer .nav {
-  max-width: 225px;
+  max-width: 14.063rem;
   justify-content: space-between;
 }
 
@@ -158,11 +152,11 @@ footer .nav a {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 1rem;
-  line-height: 18.38px
+  line-height: 1.149rem;
 }
 
 footer .about {
-  max-width: 312px;
+  max-width: 19.5rem
 }
 
 footer h3 {
@@ -173,19 +167,19 @@ footer h3 {
 }
 
 footer p {
-  margin-top: 16px;
+  margin-top: 1rem;
   font-size: 1rem;
   line-height: 160%;
 }
 
 footer .social {
-  max-width: 399px;
-  padding-left: 84px;
+  max-width: 24.938rem;
+  padding-left: 5.25rem;
 }
 
 .social div {
-  margin-top: 18px;
-  max-width: 182px;
+  margin-top: 1.125rem;
+  max-width: 11.375rem;
   display: flex;
   justify-content: space-between;
 }
